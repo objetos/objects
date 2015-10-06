@@ -67,7 +67,7 @@ V:
 
 Langs that described programs as a group of mutually interactive _objects_
 
-<li class="fragment"> An object is a _data structure_ for storing user-defined _attributes_ (data or fields)), and _methods_ to manipulate them
+<li class="fragment"> An object is a _data structure_ for storing user-defined _attributes_ (data or fields), and _methods_ to manipulate them
 
 H:
 
@@ -209,7 +209,7 @@ H:
 Remember how it's done with primitive data types
 
 ```java
-var = 10;
+int var;
 ```
 
 V:
@@ -229,7 +229,7 @@ H:
 Remember how it's done with primitive data types
 
 ```java
-int var;
+var = 10;
 ```
 
 V:
@@ -249,7 +249,7 @@ V:
 
 ## Initializing an object
 
-> Suppose now that we want our visual Fibonacci visual representation to change its placement according to our mouse y-position
+> Suppose now that we want our Fibonacci visual representation to change its placement according to our mouse y-position
 
 V:
 
