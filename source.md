@@ -202,6 +202,14 @@ class Fibonacci {
 }
 ```
 
+V:
+
+## Using an object
+
+in [p5.js](http://p5js.org/) it looks like this:
+
+<div id='objects_id'></div>
+
 H:
  
 ## Declaring an object
