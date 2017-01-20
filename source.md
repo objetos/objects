@@ -3,13 +3,14 @@
 		<p>
 			Set your presentation theme: <br>
 			<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+                        <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
 			<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
@@ -95,7 +96,7 @@ V:
 ## Using an object
 SP implementation
 
-```java
+```processing
 // 1. Global variables
 int squares;
 color hue;
@@ -155,7 +156,7 @@ V:
 ## Using an object
 ...something like this:
 
-```java
+```processing
 // Step 1. Declare an object
 Fibonacci sequence;
 
@@ -178,7 +179,7 @@ V:
 ## Using an object
 where the Fibonacci object may be implemented as:
 
-```java
+```processing
 class Fibonacci {
   color hue = 90;
   
@@ -216,7 +217,7 @@ H:
 
 Remember how it's done with primitive data types
 
-```java
+```processing
 int var;
 ```
 
@@ -226,7 +227,7 @@ V:
 
 in OOP it's done similarly:
 
-```java
+```processing
 Fibonacci sequence;
 ```
 
@@ -236,7 +237,7 @@ H:
 
 Remember how it's done with primitive data types
 
-```java
+```processing
 var = 10;
 ```
 
@@ -246,7 +247,7 @@ V:
 
 in OOP it's done with an 'object constructor'
 
-```java
+```processing
 sequence = new Fibonacci();
 ```
 
@@ -265,7 +266,7 @@ V:
 
 We could declare a new Fibonacci attribute to represent its visual placement:
 
-```java
+```processing
 int yPos;
 ```
 
@@ -275,7 +276,7 @@ V:
 
 and two methods to set/get its value:
 
-```java
+```processing
 void setHeight(int h) {
     yPos = h;
   }
@@ -291,7 +292,7 @@ V:
 
 finally, we can also implement a non-default constructor to set out ```height()``` attribute:
 
-```java
+```processing
 Fibonacci(int h) {
  setHue(h);
 }
@@ -304,7 +305,7 @@ V:
 
 our global data, ```setup()``` and ```draw()``` global methods will now look like:
 
-```java
+```processing
 Fibonacci sequence;
 
 void setup() {
@@ -327,7 +328,7 @@ V:
 
 an our ```Fibonacci``` implementation like this:
 
-```java
+```processing
 class Fibonacci {
   color hue;
   int yPos;
@@ -379,7 +380,7 @@ H:
 ## Calling object methods
 Functions are called with the "dot syntax", like this:
 
-```java
+```processing
 sequence.setHeight(mouseY);
 sequence.display(10);
 
