@@ -290,7 +290,7 @@ V:
 
 ## Initializing an object
 
-finally, we can also implement a non-default constructor to set out ```hue()``` attribute:
+finally, we can also implement a non-default constructor to set out the ```hue()``` attribute:
 
 ```processing
 Fibonacci(int h) {
