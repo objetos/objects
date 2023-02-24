@@ -22,7 +22,9 @@ H:
 # Objects part 1
 
 by Jean Pierre Charalambos  
-[Universidad Nacional de Colombia](https://unal.edu.co/)
+[Universidad Nacional de Colombia](https://unal.edu.co/)  
+Presentation best seen [online](http://objetos.github.io/objects/)  
+See also the [source code](https://github.com/objetos/objects)
 
 H:
 
